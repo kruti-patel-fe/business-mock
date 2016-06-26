@@ -1,0 +1,178 @@
+/* Height and Width in percentage */
+.height-100-per {
+  height: 100%;
+}
+.width-100-per {
+  width: 100%;
+}
+.width-25-per {
+  width: 25%;
+}
+.width-75-per {
+  width: 75%;
+}
+
+/* Content Panel Styles*/
+.content-panel {
+  @include rem(padding, 20px);
+  @include rem(margin, 20px);
+}
+
+/* Float Styles */
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+/* Center block */
+.center-block {
+  @include center-block;
+}
+
+/* Clearing after float */
+.clear-fix{
+  @include clearfix();
+}
+
+/* Position */
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-static {
+  position: static;
+}
+.position-fixed {
+  position: fixed;
+}
+
+/* Display Styles */
+.display-block{
+  display: block;
+}
+.display-inline{
+  display: inline;
+}
+.display-inline-block {
+  display: inline-block;
+}
+
+/* Overflow */
+.overflow-auto{
+  overflow: auto;
+}
+.overflow-visible{
+  overflow: visible;
+}
+.overflow-yscroll{
+  overflow-y: visible;
+}
+.overflow-scroll{
+  overflow: scroll;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+/* Cursor Styles */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-degault {
+  cursor: default;
+}
+
+/* Vertical align */
+.vertical-top {
+  vertical-align: top;
+}
+.vertical-middle {
+  vertical-align: middle;
+}
+.vertical-super {
+  vertical-align: super;
+}
+
+/* Text Alignment */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* Text Transforms */
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* Text truncate */
+.text-truncate {
+  @include text-truncate;
+}
+
+/* font size classes */
+.font-size-10px{
+  @include rem(font-size, 10px);
+  @include rem(line-height, 18px);
+}
+.font-size-11px{
+  @include rem(font-size, 11px);
+  @include rem(line-height, 18px);
+}
+.font-size-12px{
+  @include rem(font-size, 12px);
+  @include rem(line-height, 20px);
+}
+.font-size-14px{
+  @include rem(font-size, 14px);
+  @include rem(line-height, 24px);
+}
+
+/* Z-index Classes */
+.z-index-1{
+  z-index: 1;
+}
+.z-index-11 {
+  z-index: 11
+}
+.z-index-100{
+  z-index: 100;
+}
+
+/* No border */
+.no-border{
+  border: none;
+}
+
+/* No bullet point for list item */
+.no-bullet {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+/* Text decoration none */
+.no-text-decoration{
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
