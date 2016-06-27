@@ -1,3 +1,4 @@
+/* Color Palette */
 $orange: #ff4b1a;
 $light-orange: #f58220;
 $bright-yellow: #ffff00;
@@ -17,4 +18,8 @@ $light-gray: #a7a9ac;
 $off-white: #f9f8f8;
 $white: #FFF;
 
+/* Media Query Points*/
+$mobile: "(min-width: 320px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
 
